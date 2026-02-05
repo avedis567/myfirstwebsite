@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avedis Print & Copy Solutions - Professional Printing Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="your-logo.png" alt="Avedis Print & Copy Logo" class="logo">
+            </div>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Professional Printing & Copy Solutions</h2>
+            <p>High-quality printing, copying, and document services for your business needs</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>Welcome to Avedis Print & Copy Solutions! We are your trusted partner for all printing and copying needs. With over 10 years of experience in the industry, we provide fast, reliable, and affordable services to businesses and individuals.</p>
+                <p>Our state-of-the-art equipment and dedicated team ensure that every project meets the highest standards of quality. From simple document copies to large-scale printing jobs, we handle it all with precision and care.</p>
+                <p>At Avedis, we believe in building long-term relationships with our clients through exceptional service, competitive pricing, and attention to detail. Your satisfaction is our top priority.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>🖨️ Digital Printing</h3>
+                    <p>High-quality digital printing for all your business needs. From business cards to large format posters, we deliver crisp, professional results every time.</p>
+                    <span class="tech-stack">Fast Turnaround • Full Color • Various Sizes</span>
+                </div>
+                <div class="project-card">
+                    <h3>📄 Document Copying</h3>
+                    <p>Professional black & white and color copying services. Perfect for presentations, reports, and everyday document needs with bulk discounts available.</p>
+                    <span class="tech-stack">B&W & Color • Bulk Rates • Fast Service</span>
+                </div>
+                <div class="project-card">
+                    <h3>📋 Large Format Printing</h3>
+                    <p>Large format printing for banners, posters, signs, and displays. Ideal for events, trade shows, and promotional materials.</p>
+                    <span class="tech-stack">Banners • Posters • Signs • Displays</span>
+                </div>
+                <div class="project-card">
+                    <h3>📑 Binding & Finishing</h3>
+                    <p>Professional document binding, laminating, and finishing services. Give your documents a polished, professional appearance.</p>
+                    <span class="tech-stack">Spiral Binding • Laminating • Perfect Binding</span>
+                </div>
+                <div class="project-card">
+                    <h3>🎨 Graphic Design</h3>
+                    <p>Custom graphic design services to help your business stand out. From logo design to marketing materials, we bring your vision to life.</p>
+                    <span class="tech-stack">Logo Design • Marketing Materials • Branding</span>
+                </div>
+                <div class="project-card">
+                    <h3>⚡ Express Services</h3>
+                    <p>Rush printing and copying services for urgent deadlines. Same-day service available for most printing and copying needs.</p>
+                    <span class="tech-stack">Same Day • Priority Service • Emergency Orders</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="surprise">
+            <button id="surprise-btn">Click for a surprise</button>
+            <div id="surprise-message" class="hidden">Hello! Thanks for visiting my website! 🎉</div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to start your printing project? Contact us today for a free quote and consultation. We're here to help with all your printing and copying needs!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong> info@avedisprint.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>📞 Phone:</strong> (555) 123-4567
+                        </div>
+                        <div class="contact-item">
+                            <strong>📍 Location:</strong> 123 Business Ave, Suite 100, San Francisco, CA 94102
+                        </div>
+                        <div class="contact-item">
+                            <strong>🕐 Hours:</strong> Mon-Fri: 8AM-6PM, Sat: 9AM-4PM
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="from_name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="from_email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Service Needed</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a service</option>
+                            <option value="Digital Printing">Digital Printing</option>
+                            <option value="Document Copying">Document Copying</option>
+                            <option value="Large Format Printing">Large Format Printing</option>
+                            <option value="Binding & Finishing">Binding & Finishing</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Express Service">Express Service</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Please describe your printing needs, quantity, timeline, and any special requirements..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Get Free Quote</button>
+                    <div id="form-message" class="form-message hidden"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Avedis Print & Copy Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

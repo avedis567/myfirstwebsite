@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="your-logo.png" alt="Avedis Print & Copy Logo" class="logo">
+            </div>
+            <h1>Avedis Print & Copy</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog-hero">
+            <h2>My Blog</h2>
+            <p>Thoughts, tutorials, and insights from my journey in tech</p>
+        </section>
+
+        <section id="blog-content">
+            <div class="blog-container">
+                <aside class="blog-sidebar">
+                    <div class="sidebar-section">
+                        <h3>Categories</h3>
+                        <ul class="category-list">
+                            <li><a href="#" data-category="all">All Posts</a></li>
+                            <li><a href="#" data-category="web-development">Web Development</a></li>
+                            <li><a href="#" data-category="javascript">JavaScript</a></li>
+                            <li><a href="#" data-category="design">Design</a></li>
+                            <li><a href="#" data-category="tutorials">Tutorials</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Recent Posts</h3>
+                        <ul class="recent-posts">
+                            <li><a href="#post-1">Building Modern Web Apps</a></li>
+                            <li><a href="#post-2">JavaScript Best Practices</a></li>
+                            <li><a href="#post-3">CSS Grid vs Flexbox</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Tags</h3>
+                        <div class="tag-cloud">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Design</span>
+                            <span class="tag">Web Dev</span>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="blog-posts">
+                    <article class="blog-post" data-category="web-development" id="post-1">
+                        <div class="post-header">
+                            <h2>Building Modern Web Applications in 2024</h2>
+                            <div class="post-meta">
+                                <span class="post-date">March 15, 2024</span>
+                                <span class="post-category">Web Development</span>
+                                <span class="read-time">5 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>The landscape of web development continues to evolve rapidly, with new frameworks, tools, and best practices emerging constantly. In this post, I'll share my insights on building modern, scalable web applications that stand the test of time.</p>
+                            <p>From choosing the right framework to implementing proper architecture patterns, we'll explore the key considerations that make a web application truly modern and maintainable.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Architecture</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post" data-category="javascript" id="post-2">
+                        <div class="post-header">
+                            <h2>JavaScript Best Practices Every Developer Should Know</h2>
+                            <div class="post-meta">
+                                <span class="post-date">March 10, 2024</span>
+                                <span class="post-category">JavaScript</span>
+                                <span class="read-time">8 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>JavaScript has come a long way from its humble beginnings. Today, it powers everything from simple websites to complex enterprise applications. But with great power comes great responsibility.</p>
+                            <p>In this comprehensive guide, I'll cover the essential best practices that will help you write cleaner, more efficient, and more maintainable JavaScript code.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Best Practices</span>
+                                <span class="tag">Code Quality</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post" data-category="design" id="post-3">
+                        <div class="post-header">
+                            <h2>CSS Grid vs Flexbox: When to Use Which</h2>
+                            <div class="post-meta">
+                                <span class="post-date">March 5, 2024</span>
+                                <span class="post-category">Design</span>
+                                <span class="read-time">6 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Two of the most powerful layout tools in CSS are Grid and Flexbox. While they might seem similar at first glance, each has its own strengths and ideal use cases.</p>
+                            <p>Let's dive deep into the differences between CSS Grid and Flexbox, and learn when to use each one for optimal layout design.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-tags">
+                                <span class="tag">CSS</span>
+                                <span class="tag">Grid</span>
+                                <span class="tag">Flexbox</span>
+                                <span class="tag">Design</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post" data-category="tutorials" id="post-4">
+                        <div class="post-header">
+                            <h2>Getting Started with React Hooks</h2>
+                            <div class="post-meta">
+                                <span class="post-date">February 28, 2024</span>
+                                <span class="post-category">Tutorials</span>
+                                <span class="read-time">10 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>React Hooks revolutionized the way we write React components. They allow you to use state and other React features without writing a class.</p>
+                            <p>This tutorial will take you from the basics of useState and useEffect to more advanced patterns like custom hooks and context integration.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Hooks</span>
+                                <span class="tag">Tutorial</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post" data-category="web-development" id="post-5">
+                        <div class="post-header">
+                            <h2>Performance Optimization Techniques for Modern Websites</h2>
+                            <div class="post-meta">
+                                <span class="post-date">February 20, 2024</span>
+                                <span class="post-category">Web Development</span>
+                                <span class="read-time">7 min read</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Website performance is crucial for user experience and SEO. In this post, we'll explore proven techniques to optimize your website's performance.</p>
+                            <p>From lazy loading images to code splitting and caching strategies, learn how to make your websites lightning fast.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-tags">
+                                <span class="tag">Performance</span>
+                                <span class="tag">Optimization</span>
+                                <span class="tag">Web Dev</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="newsletter-container">
+                <h2>Subscribe to My Newsletter</h2>
+                <p>Get the latest posts delivered right to your inbox</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div id="newsletter-message" class="newsletter-message hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Personal Website. All rights reserved.</p>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+</html>

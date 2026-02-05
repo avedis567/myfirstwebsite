@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Avedis Print & Copy Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="your-logo.png" alt="Avedis Print & Copy Logo" class="logo">
+                <h1>Avedis Print & Copy</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-hero">
+            <h2>Get in Touch</h2>
+            <p>Ready to start your printing project? Contact us today for a free quote and consultation</p>
+        </section>
+
+        <section id="contact-content">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Visit Our Shop</h3>
+                    <div class="shop-details">
+                        <div class="contact-item">
+                            <strong>📍 Address:</strong><br>
+                            123 Business Ave, Suite 100<br>
+                            San Francisco, CA 94102
+                        </div>
+                        <div class="contact-item">
+                            <strong>📞 Phone:</strong><br>
+                            (555) 123-4567
+                        </div>
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong><br>
+                            info@avedisprint.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>🕐 Hours:</strong><br>
+                            Monday - Friday: 8:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 4:00 PM<br>
+                            Sunday: Closed
+                        </div>
+                    </div>
+
+                    <div class="contact-map">
+                        <h3>Find Us Easily</h3>
+                        <div class="map-placeholder">
+                            <img src="https://via.placeholder.com/600x400/2563eb/ffffff?text=Map+Location" alt="Map of Avedis Print & Copy location">
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" class="social-link">
+                                <span class="social-icon">📘</span>
+                                Facebook
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="social-link">
+                                <span class="social-icon">📷</span>
+                                Instagram
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-link">
+                                <span class="social-icon">💼</span>
+                                LinkedIn
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-link">
+                                <span class="social-icon">🐦</span>
+                                Twitter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h3>Request a Quote</h3>
+                    <p>Fill out the form below to receive a free, no-obligation quote for your printing needs.</p>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstname">First Name *</label>
+                                <input type="text" id="firstname" name="firstname" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastname">Last Name *</label>
+                                <input type="text" id="lastname" name="lastname" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="from_email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Please enter your message..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <div id="form-message" class="form-message hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>What's your turnaround time?</h3>
+                    <p>Standard orders are completed in 3-5 business days. Rush and express services are available for urgent needs with same-day delivery possible.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer bulk discounts?</h3>
+                    <p>Yes! We offer competitive bulk discounts for orders over 500 pieces. Contact us for specific pricing.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What file formats do you accept?</h3>
+                    <p>We accept all common file formats including PDF, JPG, PNG, TIFF, and AI files. For large files, we recommend using our file upload service.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you deliver?</h3>
+                    <p>Yes, we offer local delivery throughout the San Francisco Bay Area and shipping nationwide for larger orders.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I see samples before printing?</h3>
+                    <p>Absolutely! We provide digital proofs for approval before proceeding with large orders.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Avedis Print & Copy Solutions. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init("wSfAqwINJLp4NoXmP");
+        })();
+
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            const formMessage = document.getElementById('form-message');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form data
+                    const formData = new FormData(contactForm);
+                    const firstname = formData.get('firstname');
+                    const lastname = formData.get('lastname');
+                    const email = formData.get('from_email');
+                    const subject = formData.get('subject');
+                    const message = formData.get('message');
+                    
+                    // Basic validation
+                    if (!firstname || !lastname || !email || !subject || !message) {
+                        showFormMessage('Please fill in all required fields.', 'error');
+                        return;
+                    }
+                    
+                    // Email validation
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(email)) {
+                        showFormMessage('Please enter a valid email address.', 'error');
+                        return;
+                    }
+                    
+                    // Send email using EmailJS
+                    const submitBtn = contactForm.querySelector('.submit-btn');
+                    const originalText = submitBtn.textContent;
+                    
+                    submitBtn.textContent = 'Sending...';
+                    submitBtn.disabled = true;
+                    
+                    // Prepare email parameters
+                    const templateParams = {
+                        firstname: firstname,
+                        lastname: lastname,
+                        from_email: email,
+                        subject: subject,
+                        message: message,
+                        email: 'gshrilatha10@gmail.com'
+                    };
+                    
+                    // Send email
+                    emailjs.send('service_lywrkkj', 'template_yudrvlh', templateParams)
+                        .then(function(response) {
+                            showFormMessage('Thank you for your quote request! We\'ll get back to you within 24 hours.', 'success');
+                            contactForm.reset();
+                            submitBtn.textContent = originalText;
+                            submitBtn.disabled = false;
+                            console.log('SUCCESS!', response.status, response.text);
+                        }, function(error) {
+                            showFormMessage('Sorry, there was an error sending your request. Please try again or call us directly.', 'error');
+                            submitBtn.textContent = originalText;
+                            submitBtn.disabled = false;
+                            console.log('FAILED...', error);
+                        });
+                });
+            }
+            
+            function showFormMessage(message, type) {
+                formMessage.textContent = message;
+                formMessage.className = `form-message ${type} show`;
+                
+                // Hide message after 5 seconds
+                setTimeout(() => {
+                    formMessage.classList.remove('show');
+                }, 5000);
+            }
+        });
+    </script>
+</body>
+</html>
